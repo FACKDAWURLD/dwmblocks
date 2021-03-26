@@ -13,12 +13,12 @@ static const Block blocks[] = {
 	/* {"",		"~/.repos/dwmblocks/statusbar/sb-price btc Bitcoin 💰",			9000,			21}, */
 	/* {"",		"~/.repos/dwmblocks/statusbar/sb-torrent",					20,			7}, */
 	/* {"",		"~/.repos/dwmblocks/statusbar/sb-moonphase",					18000,			17}, */
-	{"",		"~/.repos/dwmblocks/statusbar/sb-memory",					10,			14},
+	/* {"",		"~/.repos/dwmblocks/statusbar/sb-memory",					10,			14}, */
 	/* {"",		"~/.repos/dwmblocks/statusbar/sb-cpu",						10,			18}, */
-	{"",		"~/.repos/dwmblocks/statusbar/sb-forecast",					18000,			5},
-	{"",		"~/.repos/dwmblocks/statusbar/sb-nettraf",					1,			16},
-	{"",		"~/.repos/dwmblocks/statusbar/sb-pacpackages",					0,			8},
-	{"",		"~/.repos/dwmblocks/statusbar/sb-mailbox",					180,			12},
+	/* {"",		"~/.repos/dwmblocks/statusbar/sb-forecast",					18000,			5}, */
+	/* {"",		"~/.repos/dwmblocks/statusbar/sb-nettraf",					1,			16}, */
+	/* {"",		"~/.repos/dwmblocks/statusbar/sb-pacpackages",					0,			8}, */
+	{" ",		"~/.repos/dwmblocks/statusbar/sb-mailbox",					180,			12},
 	{"",		"~/.repos/dwmblocks/statusbar/sb-internet",					5,			4},
 	{"",		"~/.repos/dwmblocks/statusbar/sb-volume",					0,			10},
 	{"",		"~/.repos/dwmblocks/statusbar/sb-clock",					60,			1},
@@ -26,7 +26,7 @@ static const Block blocks[] = {
 };
 
 //Sets delimiter between status commands. NULL character ('\0') means no delimiter.
-static char *delim = " ";
+static char *delim = " | ";
 
 // Have dwmblocks automatically recompile and run when you edit this file in
 // vim with the following line in your vimrc/init.vim:

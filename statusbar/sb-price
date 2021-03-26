@@ -17,7 +17,7 @@ updateprice() { ping -q -c 1 example.org >/dev/null 2>&1 &&
 
 [ -d "$dir" ] || mkdir -p "$dir"
 
-[ "$(stat -c %x "$pricefile" 2>/dev/null | cut -d' ' -f1)" != "$(date '+%Y-%m-%d')" ] &&
+[ "$(stat -c %x "$pricefile" 2>/dev/null | cut -d' ' -f1)" != "$(date '%m-%d-%Y')" ] &&
 	updateprice "$1"
 
 case $BLOCK_BUTTON in
