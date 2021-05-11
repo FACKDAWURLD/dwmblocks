@@ -21,8 +21,8 @@ static const Block blocks[] = {
 	{" ",		"~/.repos/dwmblocks/statusbar/sb-mailbox",					180,			12},
 	{"",		"~/.repos/dwmblocks/statusbar/sb-internet",					5,			4},
 	{"",		"~/.repos/dwmblocks/statusbar/sb-volume",					0,			10},
-	{"",		"~/.repos/dwmblocks/statusbar/sb-clock",					60,			1},
 	{"",		"~/.repos/dwmblocks/statusbar/sb-battery",					5,			3},
+	{"",		"~/.repos/dwmblocks/statusbar/sb-clock",					60,			1},
 };
 
 //Sets delimiter between status commands. NULL character ('\0') means no delimiter.
